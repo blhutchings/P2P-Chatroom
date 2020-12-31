@@ -21,6 +21,7 @@ public class Receiver implements Runnable {
 
     }
 
+    //Continuously print stream to server
     public void run() {
         while (true) {
             if (clientReceive.hasNext()) {
