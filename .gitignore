@@ -1,1 +1,8 @@
+#Exclude
+
+# Intellij files
 .idea
+P2P-Chatroom.iml
+
+# Gradle files
+.gradle
