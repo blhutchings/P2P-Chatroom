@@ -1,6 +1,6 @@
 package Client;
 
-import Host.OpenServer;
+import Server.OpenServer;
 
 import java.util.*;
 
@@ -17,7 +17,7 @@ public class Main {
             System.out.println("Server started.");
 
         } else if (input.equals("join")) {
-            Client client = new Client(Host.OpenServer.IP, Host.OpenServer.DEFAULT_PORT);
+            Client client = new Client(Server.OpenServer.IP, Server.OpenServer.DEFAULT_PORT);
         }
     }
 
